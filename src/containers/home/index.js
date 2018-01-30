@@ -1,5 +1,5 @@
 import React from 'react';
-import FeaturedImages from '../../components/featured-images';
+import FeaturedNews from '../../components/featured-news';
 
 const url = 'http://localhost:3004/home';
 
@@ -22,8 +22,7 @@ class Home extends React.Component {
         const home = this.state.home;
         return (
             <div>
-                Home
-                <FeaturedImages slides={home.slider}/>
+                <FeaturedNews slides={home.slider}/>
             </div>
         );
     }

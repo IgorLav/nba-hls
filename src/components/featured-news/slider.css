@@ -1,0 +1,28 @@
+.item-slider {
+    font-family: "Fjalla One";
+    height: 600px;
+    text-align: right;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-slider .caption {
+    display: inline-block;
+    width: 40%;
+    min-width: 300px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.item-slider .topic {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 0;
+}
+
+.item-slider .title {
+    font-size: 70px;
+    margin: 0;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
+import './slider.css';
 
 const sliderConfig = {
     arrows: false,
@@ -20,8 +21,8 @@ const generateSlides = (slides) => {
                          className="item-slider"
                          style={{backgroundImage: `url(/images/covers/${item.cover})`}}>
                         <div className="caption">
-                            <h2>{item.topic}</h2>
-                            <p className="title">{item.title}</p>
+                            <p className="topic">{item.topic}</p>
+                            <h2 className="title">{item.title}</h2>
                         </div>
                     </div>
                 ))}
@@ -30,11 +31,11 @@ const generateSlides = (slides) => {
     }
 };
 
-const featuredImages = (props) => {
+const featuredNews = (props) => {
     return (
         <div className="">
             {generateSlides(props.slides)}
         </div>
     );
 };
-export default featuredImages;
+export default featuredNews;
