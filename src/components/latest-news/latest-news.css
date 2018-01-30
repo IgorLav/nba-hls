@@ -1,0 +1,62 @@
+.grid-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-menu .grid-item {
+    position: relative;
+    height: 270px;
+    flex-grow: 1;
+}
+
+.grid-menu .grid-item .inner {
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-menu .grid-item.lg {
+    width: 50%;
+}
+
+.grid-menu .grid-item.md {
+    width: 30%;
+}
+
+.grid-menu .grid-item.sm {
+    width: 20%;
+}
+
+.grid-menu .description {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+}
+
+.grid-menu .grid-item:hover .description {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}

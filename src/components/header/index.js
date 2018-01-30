@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {withRouter,Link} from 'react-router-dom';
 import Logo from '../logo';
 import './header.css';
 
@@ -15,4 +15,4 @@ const header = (props) => (
     </header>
 );
 
-export default header;
+export default withRouter(header);
