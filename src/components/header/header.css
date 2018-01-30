@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid #e2e2e2;
+    background: #fff;
+    padding: 10px;
+    font-family: 'Fjalla One';
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    
+}
