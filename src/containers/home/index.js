@@ -2,6 +2,7 @@ import React from 'react';
 import FeaturedNews from '../../components/featured-news';
 import SubscribeForm from '../subscribe-form';
 import LatestNews from '../../components/latest-news';
+import Poll from '../poll';
 
 const url = 'http://localhost:3004/home';
 
@@ -27,6 +28,7 @@ class Home extends React.Component {
                 <FeaturedNews slides={home.slider}/>
                 <SubscribeForm/>
                 <LatestNews blocks={home.blocks}/>
+                <Poll/>
             </div>
         );
     }

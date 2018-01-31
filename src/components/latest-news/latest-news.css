@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .grid-menu .grid-item.lg {
@@ -39,18 +40,17 @@
     padding: 10px;
     font-size: 18px;
     color: #fff;
-    
+
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
     -o-transform: translateY(100%);
     transform: translateY(100%);
 
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
-    -ms-transition: transform .5s;
     -o-transition: transform .5s;
     transition: transform .5s;
+    z-index: 1;
 }
 
 .grid-menu .grid-item:hover .description {
