@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Logo from '../logo';
-import './footer.css';
+import './footer.scss';
 
 
 const footer = (props) => (

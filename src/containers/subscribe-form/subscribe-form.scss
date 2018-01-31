@@ -1,16 +1,15 @@
 .subscribe-panel {
-    padding: 40px;
-    max-width: 640px;
-    margin: 0 auto;
-    text-align: center;
-}
+  padding: 40px;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
 
-.subscribe-panel .title {
-    font:300 34px 'Fjalla One';
+  .title {
+    font: 300 34px 'Fjalla One';
     margin: 0 0 20px;
-}
+  }
 
-.subscribe-panel .input-style {
+  .input-style {
     max-width: 320px;
     width: 100%;
 
@@ -21,23 +20,23 @@
     padding: 10px;
     font-size: 22px;
     margin-bottom: 15px;
-}
 
-.subscribe-panel .input-style:focus {
-    outline-width: 0;
-}
+    &:focus {
+      outline-width: 0;
+    }
+  }
 
-.subscribe-panel .description {
+  .description {
     font-size: 14px;
     margin: 0;
-}
+  }
 
-.error {
+  .error {
     color: #f33226;
     font-size: 12px;
-}
+  }
 
-.success-msg {
+  .success-msg {
     color: #4caf50;
+  }
 }
-

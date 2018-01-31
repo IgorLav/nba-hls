@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import './latest-news.css';
+import './latest-news.scss';
 
 const setDelay = (i) => {
     if (i % 2 === 0) return 150;

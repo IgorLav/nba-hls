@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 import Home from './containers/home';
-import './app.css';
+import './app.scss';
 
 const app = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './subscribe-form.css';
+import './subscribe-form.scss';
 
 const url = ' http://localhost:3004/subcriptions';
 
