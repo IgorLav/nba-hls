@@ -20,9 +20,11 @@ class Poll extends React.Component {
     }
 
     renderPoll () {
-        return this.state.pollTeams.map(item => (
+        const position = ['1ST', '2ND', '3RD'];
+        return this.state.pollTeams.map((item, i) => (
             <div key={item.id} className="poll-item">
                 <img src={`/images/teams/${item.logo}`} alt={item.name}/>
+                <h4>{position[i]}</h4>
                 <div>{item.count} Votes</div>
             </div>
         ))
