@@ -1,6 +1,7 @@
 .grid-menu {
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 
   .grid-item {
     position: relative;
@@ -31,6 +32,7 @@
 
     &:hover {
       .description {
+        opacity: 1;
         -webkit-transform: translateY(0);
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
@@ -49,6 +51,7 @@
     padding: 10px;
     font-size: 18px;
     color: #fff;
+    opacity: 0;
 
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);

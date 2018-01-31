@@ -1,0 +1,40 @@
+.home-poll {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+  .title {
+    padding-top: 15px;
+    font: 300 34px 'Fjalla One';
+  }
+
+  .poll{
+    &-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-item {
+      padding: 20px;
+      flex-grow: 1;
+      font-family: 'Fjalla One';
+
+      .team-logo {
+        display: inline-block;
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .place {
+        font-size: 26px;
+        margin: 0 0 10px;
+      }
+
+      .votes {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
