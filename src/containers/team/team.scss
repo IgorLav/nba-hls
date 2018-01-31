@@ -1,0 +1,54 @@
+
+.search {
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 20px 0;
+
+  input {
+    max-width: 420px;
+    width: 100%;
+    font: 20px 'Roboto';
+    border: 1px solid #D3D3D3;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #000;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.teams {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 0 0;
+
+    .team-item {
+      width: 20%;
+      padding: 20px;
+
+      a {
+        display: block;
+
+        &:hover {
+          & img {
+            -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+          }
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      -webkit-transition: .35s;
+      transition: .35s;
+    }
+  }
+
+}
